@@ -1,0 +1,27 @@
+SupClass            Desc                                        Arrythmia?
+STTC        --->    ST/T Changes                                    2/3
+MI          --->    Infark Miokard                                  3
+CD          --->    Gangguan Konduksi                               2
+HYP         --->    Hypertropy                                      
+ABQRS       --->    Abnormal QRS                                    2
+PVC         --->    ventricular premature complex                   3
+SR          --->    sinus rhythm                                    1
+STACH       --->    sinus tachycardia                               1
+PACE        --->    normal functioning artificial pacemaker         1
+AFLT        --->    atrial flutter                                  3
+PSVT        --->    paroxysmal supraventricular tachycardia         3
+
+0 -> normal
+1 -> Abnormal
+2 -> berpotensi aritmia
+3 -> sangat berpotensi aritmia
+
+ischemic -> potensi infark
+block -> 2
+bundle block -> 1
+
+label                    GIVEN           URG
+normal                      2              0
+Abnormal                    1              1
+berpotensi                  3              2
+sangat                      4              3
